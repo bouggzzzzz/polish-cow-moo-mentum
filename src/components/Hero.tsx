@@ -11,11 +11,14 @@ export const Hero = () => {
         <p className="text-2xl md:text-3xl text-gray-700 mb-8">
           Where memes meet decentralized fun
         </p>
-        <div className="relative w-64 h-64 mx-auto mb-8">
-          <img
-            src="https://tenor.com/view/polish-cow-cow-dancing-dance-dancing-cow-gif-19109155"
-            alt="Dancing Polish Cow"
-            className="w-full h-full object-contain animate-spin-slow"
+        <div className="relative w-full max-w-2xl mx-auto mb-8 aspect-video">
+          <iframe
+            src="https://www.youtube.com/embed/OyDyOweu-PA?autoplay=1&loop=1&playlist=OyDyOweu-PA&mute=1"
+            title="Dancing Polish Cow"
+            className="w-full h-full"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            frameBorder="0"
           />
         </div>
         <div className="flex gap-4 justify-center">

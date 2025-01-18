@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Discord, Twitter } from "lucide-react";
+import { discord, Twitter } from "lucide-react";
 
 export const Community = () => {
   return (
@@ -13,7 +13,7 @@ export const Community = () => {
             className="bg-[#5865F2] hover:bg-[#5865F2]/90 text-white px-8 py-6 text-lg rounded-full flex items-center gap-2"
             onClick={() => window.open("https://discord.gg/polishcow", "_blank")}
           >
-            <Discord className="w-6 h-6" />
+            <discord className="w-6 h-6" />
             Join Discord
           </Button>
           <Button

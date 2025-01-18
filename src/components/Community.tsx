@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { discord, Twitter } from "lucide-react";
+import { Twitter } from "lucide-react";
 
 export const Community = () => {
   return (
@@ -13,7 +13,18 @@ export const Community = () => {
             className="bg-[#5865F2] hover:bg-[#5865F2]/90 text-white px-8 py-6 text-lg rounded-full flex items-center gap-2"
             onClick={() => window.open("https://discord.gg/polishcow", "_blank")}
           >
-            <discord className="w-6 h-6" />
+            <svg
+              className="w-6 h-6"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M9 12h6m-6 4h6m-6-8h6m-3-4v16" />
+            </svg>
             Join Discord
           </Button>
           <Button

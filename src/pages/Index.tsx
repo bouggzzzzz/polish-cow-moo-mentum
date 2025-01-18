@@ -6,7 +6,7 @@ import DecorativeCows from "@/components/DecorativeCows";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white relative">
       <DecorativeCows />
       <Hero />
       <Roadmap />
